@@ -28,3 +28,5 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 PRODUCT_PACKAGES += \
     fastbootd \
     android.hardware.fastboot@1.0-impl-mock
+
+include vendor/oneplus/avicii/avicii-vendor.mk
